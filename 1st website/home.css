@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vw;
+}
+header{
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(164, 164, 241);  
+    font-size: larger; 
+}
+a{
+    padding: 5px;
+    margin: 5px;
+    color: rgb(15, 41, 41);
+    display: inline;
+    cursor: pointer;
+    font-size: 23px;
+}
+a:hover{
+    color: blue;
+}
+.login a{
+    display: inline;
+    margin: 2px 0 2px 900px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+}
+.login a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+nav{
+    background-color: rgb(221, 194, 194);
+    margin: 0;
+    padding: 35px 0 35px 5px;
+    
+}
+.search-bar{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.search{
+    margin-top: 5px;
+font-size: 32px;
+position:relative;
+border: 0;
+outline: none;
+width: auto;
+border-radius: 5px;
+}
+.search-icon{
+    height: 40px;
+    font-size: 27px;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgb(151, 151, 233);
+    border-radius: 5px;
+    
+}
+.main{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(main.jpg) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.start h1{
+    text-align: center;
+    margin: 20% 7% 0 72%;
+    font-size: 60px;
+}
+.start p{
+    text-align: center;
+    margin: 0 7% 0 69%;
+    font-size: x-large;
+}
+.shop p{
+    font-size: 40px;
+    color: rgb(9, 81, 90);
+    box-sizing: border-box;
+    background-color: rgb(90, 108, 116);
+    border-radius: 30px;
+    margin: 5px 27% 50% 72%;
+    padding: 15px 90px 15px 0;
+    width: 350px;
+    border: 0;
+    outline: none;
+}
+.shop p:hover{
+    background-color:rgb(9, 81, 90);
+    color: rgba(8, 11, 12, 0.801);
+    transition:0.8s;
+}
+
+
+
